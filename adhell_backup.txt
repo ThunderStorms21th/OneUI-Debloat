@@ -126,10 +126,6 @@
       "policyPackageId": "default-policy"
     },
     {
-      "packageName": "com.samsung.android.da.daagent",
-      "policyPackageId": "default-policy"
-    },
-    {
       "packageName": "com.google.android.apps.tachyon",
       "policyPackageId": "default-policy"
     },
@@ -167,10 +163,6 @@
     },
     {
       "packageName": "com.monotype.android.font.foundation",
-      "policyPackageId": "default-policy"
-    },
-    {
-      "packageName": "com.samsung.storyservice",
       "policyPackageId": "default-policy"
     },
     {
@@ -494,7 +486,47 @@
       "policyPackageId": "default-policy"
     },
     {
-      "packageName": "com.google.android.apps.maps",
+      "packageName": "com.samsung.storyservice",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.themestore",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.android.app.wlantest",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.cellbroadcastreceiver",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.net.wifi.wifiguider",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.unifiedwfc",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.android.daemonapp",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.location.nsflp2",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.carkey",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.android.app.bluetoothtest",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.da.daagent",
       "policyPackageId": "default-policy"
     }
   ],
@@ -592,30 +624,6 @@
     },
     {
       "packageName": "com.google.android.gms",
-      "permissionName": "com.google.android.location.util.LocationAccuracyInjectorService",
-      "permissionStatus": 2,
-      "policyPackageId": "default-policy"
-    },
-    {
-      "packageName": "com.google.android.gms",
-      "permissionName": "com.google.android.location.internal.GoogleLocationManagerService",
-      "permissionStatus": 2,
-      "policyPackageId": "default-policy"
-    },
-    {
-      "packageName": "com.google.android.gms",
-      "permissionName": "com.google.android.location.internal.server.GoogleLocationService",
-      "permissionStatus": 2,
-      "policyPackageId": "default-policy"
-    },
-    {
-      "packageName": "com.google.android.gms",
-      "permissionName": "com.google.android.gms.location.persistent.LocationPersistentService",
-      "permissionStatus": 2,
-      "policyPackageId": "default-policy"
-    },
-    {
-      "packageName": "com.google.android.gms",
       "permissionName": "com.google.android.gms.locationsharing.service.LocationSharingSettingInjectorService",
       "permissionStatus": 2,
       "policyPackageId": "default-policy"
@@ -623,6 +631,12 @@
     {
       "packageName": "com.google.android.gms",
       "permissionName": "com.google.android.gms.locationsharing.service.LocationSharingService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.location.util.LocationAccuracyInjectorService",
       "permissionStatus": 2,
       "policyPackageId": "default-policy"
     }
