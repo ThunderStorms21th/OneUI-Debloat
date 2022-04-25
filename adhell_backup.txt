@@ -1,0 +1,501 @@
+{
+  "FirewallWhitelistedPackage": [],
+  "DisabledPackage": [
+    {
+      "packageName": "com.android.internal.systemui.navbar.threebutton",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.aasaservice",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.hearingadjust",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.projection.gearhead",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.android.egg",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.app.updatecenter",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.mapsagent",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.android.app.applinker",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.app.appsedge",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.ardrawing",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.aremoji",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.arzone",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.ar.core",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.authfw",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.tapack.authfw",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.mhs.smarttethering",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.android.autodoodle.service",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.samsungpassautofill",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.bixby.service",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.visionintelligence",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.bixby.agent",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.bixbyvision.framework",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.brightnessbackupservice",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.app.clipboardedge",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.clipboardsaveservice",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.app.camera.sticker.facearavatar.preload",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.rubin.app",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.livestickers",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.apps.turbo",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.sm.devicesecurity",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.forest",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.da.daagent",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.apps.tachyon",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.app.cocktailbarservice",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.facebook.katana",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.facebook.system",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.facebook.appmanager",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.facebook.services",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.faceservice",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.aircommandmanager",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.fmm",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.app.galaxyfinder",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.monotype.android.font.foundation",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.storyservice",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.android.stk",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gm",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.googlequicksearchbox",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.android.hotwordenrollment.okgoogle",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.android.hotwordenrollment.xgoogle",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms.location.history",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.onetimeinitializer",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.partnersetup",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.gpuwatchapp",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.mobileservice",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.sdk.handwriting",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.app.simplesharing",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.mdx",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.audio.hearing.visualization.accessibility.scribe",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.android.wallpaper.livepicker",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.android.app.magnifier",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.feedback",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.mdx.quickboard",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.beaconmanager",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.easysetup",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.allshare.service.mediashare",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.netflix.mediaclient",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.android.nfc",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.android.theme.font.notoserifsource",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.vsim.ericssonnsds.webapp",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.microsoft.skydrive",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.netflix.partner.activation",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.service.peoplestripe",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.app.sharelive",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.aware.service",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.app.omcagent",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.app.spage",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.mateagent",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.dkey",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.samsungpass",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.spayfw",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.spp.push",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.SMT",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.ipsgeofence",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.svoiceime",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.monotype.android.font.samsungone",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.android.settings.intelligence",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.app.settings.bixby",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.android.stk2",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.smartsuggestions",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.visualars",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.smartmirroring",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.app.smartwidget",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.smartface",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.wssyncmldm",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.android.soagent",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.android.app.soundalive",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.tts",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.stickercenter",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.mainline.telemetry",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.systemui.bixby2",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.android.systemupdate",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.android.apps.tag",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.service.tagservice",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.accessibility.talkback",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.app.taskedge",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.automation",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.android.app.quicktool",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.android.providers.userdictionary",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.vtcamerasettings",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.bixby.wakeup",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.android.app.volumemonitorprovider",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.dynamiclock",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.knox.containeragent",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.knox.containercore",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.android.managedprovisioning",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.microsoft.appmanager",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.youtube",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.mdecservice",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.cellbroadcastservice",
+      "policyPackageId": "default-policy"
+    }
+  ],
+  "RestrictedPackage": [],
+  "AppPermission": [],
+  "BlockUrlProvider": [
+    {
+      "url": "https://gitlab.com/fusionjack/adhell3-hosts/-/raw/master/hosts",
+      "deletable": false,
+      "selected": true,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "url": "content://com.android.providers.downloads.documents/document/msf%3A45",
+      "deletable": true,
+      "selected": true,
+      "policyPackageId": "default-policy"
+    }
+  ],
+  "UserBlockUrl": [],
+  "WhiteUrl": [],
+  "DnsPackage": [],
+  "DNSAddresses": {}
+}
