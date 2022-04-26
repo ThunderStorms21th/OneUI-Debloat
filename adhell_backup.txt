@@ -362,10 +362,6 @@
       "policyPackageId": "default-policy"
     },
     {
-      "packageName": "com.sec.android.app.soundalive",
-      "policyPackageId": "default-policy"
-    },
-    {
       "packageName": "com.google.android.tts",
       "policyPackageId": "default-policy"
     },
