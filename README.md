@@ -1,4 +1,24 @@
+# Making OneUI faster and lighter
+
+This repo is a list of things that can be disabled to make our device faster and lighter and by doing so, we can get more free RAM and more battery life. This list will be updated on a regular basis as more apps and more components will be tested if they are safe to disable.
+
+# Apps needed
+
+I recommend using Adhell which works even when unrooted. The advantage of using Adhell compared to using adb, especially when debloating, is that you don't need a computer plus, you can re-enable the apps without resetting your device. Installation instructions is here: https://forum.xda-developers.com/t/adhell-3-knox.3908002/post-85788393 and apk can be downloaded from here: https://forum.xda-developers.com/t/adhell-3-knox.3908002/post-85440303.
+
+After you have successfully installed Adhell, you can simply download adhell_backup.txt from this repo, place it to the folder that you created for Adhell, go to "Other->Settings" and select "Restore Database" and that's it. You may have to re-enable some apps or services depending on your needs.
+
+# Contributions
+
+Feel free to open up any issues or even pull requests. I want to make this list as extensive as possible.
+
+# Tests
+
+I perform some tests after disabling every app/component to make sure it doesn't bring chaos to our devices. I've performed reboots after disabling them to ensure it doesn't cause bootloops and I ran logcat to make sure each app/component doesn't break another app/component.
+
 # **OneUI Disabled Apps List**
+
+This list is just a conservative debloat. The goal of this is to disable as much apps while preserving more important features. Some apps were grouped together as they might be needed by other apps of the same group.
 
 - 3 Button Navigation Bar (com.android.internal.systemui.navbar.threebutton)
 - AASAservice (com.samsung.aasaservice)
@@ -149,3 +169,114 @@
   - Work profile (com.samsung.android.knox.containeragent)
   - Work profile (com.samsung.android.knox.containercore)
   - Work Setup (com.android.managedprovisioning)
+
+# Google Play Services Disabled Components List
+
+You may want to clear Google Play Services app data after disabling any of these
+
+## Providers:
+
+- com.google.android.location.reporting.service.utils.ReportingContentProvider
+- com.google.android.gms.nearby.discovery.fastpair.slice.FastPairContextualCardProvider
+- com.google.android.gms.nearby.discovery.fastpair.slice.FastPairSliceProvider
+- com.google.android.gms.nearby.sharing.SharingSliceProvider
+
+### Receivers:
+
+- Ad-related receivers:
+  - FlagsReceiver (com.google.android.gms.ads.config.FlagsReceiver)
+
+- Analytics and reporting services:
+
+  - AnalyticsReceiver (com.google.android.gms.analytics.AnalyticsReceiver)
+  - UsageReportingIntentService (com.google.android.gms.usagereporting.service.UsageReportingIntentService)
+
+- App measurement receivers:
+
+  - AppMeasurementReceiver (com.google.android.gms.measurement.AppMeasurementReceiver)
+
+  - AppMeasurementReceiver (com.google.android.gms.measurement.PackageMeasurementReceiver)
+
+### Services:
+
+- Ad-related services:
+  - AdRequestBrokerService (com.google.android.gms.ads.AdRequestBrokerService)
+  - CacheBrokerService (com.google.android.gms.ads.cache.CacheBrokerService)
+  - AdvertisingIdNotificationService (com.google.android.gms.ads.identifier.service.AdvertisingIdNotificationService)
+  - AdvertisingIdService (com.google.android.gms.ads.identifier.service.AdvertisingIdService)
+  - NegotiationService (com.google.android.gms.ads.jams.NegotiationService)
+  - GmpConversionTrackingBrokerService (com.google.android.gms.ads.measurement.GmpConversionTrackingBrokerService)
+  - GcmSchedulerWakeupService (com.google.android.gms.ads.social.GcmSchedulerWakeupService)
+
+- Analytics and reporting services:
+
+  - AnalyticsService (com.google.android.gms.analytics.AnalyticsService)
+
+  - AnalyticsTaskService (com.google.android.gms.analytics.AnalyticsTaskService)
+
+  - PlayLogReportingService (com.google.android.gms.analytics.internal.PlayLogReportingService)
+
+  - AnalyticsService (com.google.android.gms.analytics.service.AnalyticsService)
+
+- App measurement services:
+
+  - AppMeasurementJobService (com.google.android.gms.measurement.AppMeasurementJobService)
+  - AppMeasurementService (com.google.android.gms.measurement.AppMeasurementService)
+  - PackageMeasurementService (com.google.android.gms.measurement.PackageMeasurementService)
+  - PackageMeasurementTaskService (com.google.android.gms.measurement.PackageMeasurementTaskService)
+  - MeasurementBrokerService (com.google.android.gms.measurement.service.MeasurementBrokerService)
+
+- Context manager services (probably used for data collection):
+
+  - ContextManagerService (com.google.android.contextmanager.service.ContextManagerService)
+  - ContextManagerTaskService (com.google.android.contextmanager.sync.ContextManagerTaskService)
+
+- Location services:
+
+  - Leave these services enabled if you use location history and sharing
+    - LocationHistoryInjectorService (com.google.android.location.reporting.service.LocationHistoryInjectorService)
+    - LocationSharingSettingInjectorService (com.google.android.gms.locationsharing.service.LocationSharingSettingInjectorService)
+    - LocationSharingService (com.google.android.gms.locationsharing.service.LocationSharingService)
+  - LocationAccuracyInjectorService (com.google.android.location.util.LocationAccuracyInjectorService)
+  - LocationPersistentService (com.google.android.gms.location.persistent.LocationPersistentService)
+  - PlacesTaskService (com.google.android.location.places.PlacesTaskService)
+  - PlaceDetectionAsyncService (com.google.android.location.places.service.PlaceDetectionAsyncService)
+  - PeriodicReporterMonitoringService (com.google.android.gms.locationsharingreporter.service.reporting.periodic.PeriodicReporterMonitoringService)
+  - DispatchingService (com.google.android.location.reporting.service.DispatchingService)
+  - ReportingAndroidService (com.google.android.location.reporting.service.ReportingAndroidService)
+  - ReportingSyncService (com.google.android.location.reporting.service.ReportingSyncService)
+  - UploadGcmTaskService (com.google.android.location.reporting.service.UploadGcmTaskService)
+  - GeocodeService (com.google.android.gms.location.geocode.GeocodeService)
+  - GcmReceiverService (com.google.android.gms.location.quake.ealert.GcmReceiverService)
+  - These 2 services can be safely disabled but breaks some location functionalities. Google Maps still works with these 2 disabled but the camera app needs these 2 if you want to add location tags to your photos
+    - GoogleLocationService (com.google.android.location.internal.server.GoogleLocationService)
+    - GoogleLocationManagerService (com.google.android.location.internal.GoogleLocationManagerService)
+
+- Media cast-related services:
+
+  - CastMediaRoute2ProviderService (com.google.android.gms.cast.media.CastMediaRoute2ProviderService)
+  - CastRemoteDisplayProviderService (com.google.android.gms.cast.media.CastRemoteDisplayProviderService)
+  - CastPersistentService (com.google.android.gms.cast.service.CastPersistentService)
+  - CastSocketMultiplexerLifeCycleService (com.google.android.gms.cast.service.CastSocketMultiplexerLifeCycleService)
+
+- Nearby connection services:
+
+  - NearbyConnectionsAndroidService (com.google.android.gms.nearby.connection.service.NearbyConnectionsAndroidService)
+  - DiscoveryService (com.google.android.gms.nearby.discovery.service.DiscoveryService)
+  - WakeUpService (com.google.android.gms.nearby.exposurenotification.WakeUpService)
+  - ExposureMatchingService (com.google.android.gms.nearby.exposurenotification.service.ExposureMatchingService)
+  - ExposureMatchingTriggerService (com.google.android.gms.nearby.exposurenotification.service.ExposureMatchingTriggerService)
+  - ExposureNotificationInternalService (com.google.android.gms.nearby.exposurenotification.service.ExposureNotificationInternalService)
+  - NfcAdvertisingService (com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService)
+  - DebugPokeService (com.google.android.gms.nearby.messages.debug.DebugPokeService)
+  - OfflineCachingService (com.google.android.gms.nearby.messages.offline.OfflineCachingService)
+  - NearbyMessagesService (com.google.android.gms.nearby.messages.service.NearbyMessagesService)
+  - DirectShareService (com.google.android.gms.nearby.sharing.DirectShareService)
+  - ReceiveSurfaceService (com.google.android.gms.nearby.sharing.ReceiveSurfaceService)
+  - SharingSyncService (com.google.android.gms.nearby.sharing.SharingSyncService()
+  - SharingTileService (com.google.android.gms.nearby.sharing.SharingTileService)
+  - NearbyDirectService (com.google.location.nearby.direct.service.NearbyDirectService)
+
+- Task scheduling services (not sure what these are):
+
+  - TaskExecutionService (com.google.android.gms.gcm.nts.TaskExecutionService)
