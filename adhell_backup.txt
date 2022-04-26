@@ -528,6 +528,10 @@
     {
       "packageName": "com.samsung.android.da.daagent",
       "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.apps.carrier.carrierwifi",
+      "policyPackageId": "default-policy"
     }
   ],
   "RestrictedPackage": [],
@@ -637,6 +641,282 @@
     {
       "packageName": "com.google.android.gms",
       "permissionName": "com.google.android.location.util.LocationAccuracyInjectorService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.location.persistent.LocationPersistentService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.deviceconnection.service.DeviceConnectionWatcherService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.location.places.PlacesTaskService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.location.places.service.PlaceDetectionAsyncService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.locationsharingreporter.service.reporting.periodic.PeriodicReporterMonitoringService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.location.reporting.service.DispatchingService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.location.reporting.service.ReportingAndroidService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.location.reporting.service.ReportingSyncService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.location.reporting.service.UploadGcmTaskService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.location.geocode.GeocodeService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.location.quake.ealert.GcmReceiverService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.cast.media.CastMediaRoute2ProviderService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.cast.media.CastRemoteDisplayProviderService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.cast.service.CastPersistentService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.cast.service.CastSocketMultiplexerLifeCycleService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.gcm.nts.TaskExecutionService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.measurement.AppMeasurementJobService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.measurement.AppMeasurementService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.measurement.AppMeasurementReceiver|No permission",
+      "permissionStatus": 5,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.measurement.PackageMeasurementReceiver|No permission",
+      "permissionStatus": 5,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.measurement.PackageMeasurementService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.measurement.PackageMeasurementTaskService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.measurement.service.MeasurementBrokerService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.location.reporting.service.utils.ReportingContentProvider",
+      "permissionStatus": 3,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.connection.service.NearbyConnectionsAndroidService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.discovery.service.DiscoveryService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.exposurenotification.WakeUpService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.exposurenotification.service.ExposureMatchingService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.exposurenotification.service.ExposureMatchingTriggerService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.exposurenotification.service.ExposureNotificationInternalService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.messages.debug.DebugPokeService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.messages.offline.OfflineCachingService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.messages.service.NearbyMessagesService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.sharing.DirectShareService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.sharing.ReceiveSurfaceService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.sharing.SharingSyncService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.sharing.SharingTileService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.location.nearby.direct.service.NearbyDirectService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.discovery.fastpair.slice.FastPairContextualCardProvider",
+      "permissionStatus": 3,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.discovery.fastpair.slice.FastPairSliceProvider",
+      "permissionStatus": 3,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.gms.nearby.sharing.SharingSliceProvider",
+      "permissionStatus": 3,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.location.internal.server.GoogleLocationService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.location.internal.GoogleLocationManagerService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.contextmanager.service.ContextManagerService",
+      "permissionStatus": 2,
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.google.android.gms",
+      "permissionName": "com.google.android.contextmanager.sync.ContextManagerTaskService",
       "permissionStatus": 2,
       "policyPackageId": "default-policy"
     }
