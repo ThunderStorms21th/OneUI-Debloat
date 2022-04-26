@@ -2,6 +2,8 @@
 
 This repo is a list of things that can be disabled to make our device faster and lighter and by doing so, we can get more free RAM and more battery life. This list will be updated on a regular basis as more apps and more components will be tested if they are safe to disable.
 
+Be sure to check the commits so you may see yourselves what stuffs were disabled for each update.
+
 # Apps needed
 
 I recommend using Adhell which works even when unrooted. The advantage of using Adhell compared to using adb, especially when debloating, is that you don't need a computer plus, you can re-enable the apps without resetting your device. Installation instructions is here: https://forum.xda-developers.com/t/adhell-3-knox.3908002/post-85788393 and apk can be downloaded from here: https://forum.xda-developers.com/t/adhell-3-knox.3908002/post-85440303.
