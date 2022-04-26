@@ -178,10 +178,10 @@ You may want to clear Google Play Services app data after disabling any of these
 
 ## Providers:
 
-- com.google.android.location.reporting.service.utils.ReportingContentProvider
-- com.google.android.gms.nearby.discovery.fastpair.slice.FastPairContextualCardProvider
-- com.google.android.gms.nearby.discovery.fastpair.slice.FastPairSliceProvider
-- com.google.android.gms.nearby.sharing.SharingSliceProvider
+- ReportingContentProvider (com.google.android.location.reporting.service.utils.ReportingContentProvider)
+- FastPairContextualCardProvider (com.google.android.gms.nearby.discovery.fastpair.slice.FastPairContextualCardProvider)
+- FastPairSliceProvider (com.google.android.gms.nearby.discovery.fastpair.slice.FastPairSliceProvider)
+- SharingSliceProvider (com.google.android.gms.nearby.sharing.SharingSliceProvider)
 
 ### Receivers:
 
