@@ -51,12 +51,11 @@ This list is just a conservative debloat. The goal of this is to disable as much
 - BrightnessBNR (com.samsung.android.brightnessbackupservice)
 - Call & text on other devices (com.samsung.android.mdecservice)
 - Camera services (these stuffs doesn't seem to provide any additional functionality)
-  - CameraLightSensor (com.samsung.adaptivebrightnessgo)
   - Cameralyzer (com.sec.factory.cameralyzer)
   - FactoryCamera (com.sec.factory.camera)
   - SCameraService (com.samsung.android.camerasdkservice)
   - SCameraXService (com.samsung.android.cameraxservice)
-
+  
 - Cell Broadcast Service (com.google.android.cellbroadcastservice) - needed to receive broadcast messages
 - ChromeCustomizations (com.sec.android.app.chromecustomizations)
 - ClipboardSaveService (com.samsung.clipboardsaveservice)

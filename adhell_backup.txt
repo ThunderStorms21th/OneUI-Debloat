@@ -580,10 +580,6 @@
     {
       "packageName": "com.samsung.android.service.stplatform",
       "policyPackageId": "default-policy"
-    },
-    {
-      "packageName": "com.samsung.adaptivebrightnessgo",
-      "policyPackageId": "default-policy"
     }
   ],
   "RestrictedPackage": [],
