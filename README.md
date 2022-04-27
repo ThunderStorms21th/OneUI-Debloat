@@ -10,6 +10,8 @@ I recommend using Adhell which works even when unrooted. The advantage of using 
 
 After you have successfully installed Adhell, you can simply download adhell_backup.txt from this repo, place it to the folder that you created for Adhell, go to "Other->Settings" and select "Restore Database" and that's it. You may have to re-enable some apps or services depending on your needs.
 
+You may also do it manually. If you want to disable apps, simply go to "Apps" tab, "Disable Apps" and toggle the apps you want to disable. If you want to disable app components manually, go to "Other", "Components" and select the app you want. After selecting the app, go to the respective components you want to disable (Services/Receivers/Providers). You may use this list as a guide regarding what things to disable.
+
 # Contributions
 
 Feel free to open up any issues or even pull requests. I want to make this list as extensive as possible.
