@@ -6,10 +6,6 @@
       "policyPackageId": "default-policy"
     },
     {
-      "packageName": "com.samsung.aasaservice",
-      "policyPackageId": "default-policy"
-    },
-    {
       "packageName": "com.sec.hearingadjust",
       "policyPackageId": "default-policy"
     },
@@ -231,10 +227,6 @@
     },
     {
       "packageName": "com.google.android.feedback",
-      "policyPackageId": "default-policy"
-    },
-    {
-      "packageName": "com.samsung.android.mdx.quickboard",
       "policyPackageId": "default-policy"
     },
     {
@@ -528,13 +520,45 @@
     {
       "packageName": "com.google.android.apps.carrier.carrierwifi",
       "policyPackageId": "default-policy"
-    }
+    },
+    {
+      "packageName": "com.samsung.android.game.gametools",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.game.gamehome",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.game.gos",
+      "policyPackageId": "default-policy"
+    },
     {
       "packageName": "com.sec.factory.camera",
       "policyPackageId": "default-policy"
     },
     {
+      "packageName": "com.samsung.android.mdx.quickboard",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.aasaservice",
+      "policyPackageId": "default-policy"
+    },
+    {
       "packageName": "com.sec.app.RilErrorNotifier",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.android.app.SecSetupWizard",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.android.app.setupwizardlegalprovider",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.factory",
       "policyPackageId": "default-policy"
     },
     {
@@ -547,6 +571,14 @@
     },
     {
       "packageName": "com.samsung.android.cameraxservice",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.android.app.apex",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.service.stplatform",
       "policyPackageId": "default-policy"
     },
     {

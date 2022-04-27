@@ -64,6 +64,7 @@ This list is just a conservative debloat. The goal of this is to disable as much
 - DECO PIC (com.samsung.android.livestickers)
 - Device Health Services (com.google.android.apps.turbo)
 - Device security (com.samsung.android.sm.devicesecurity) - Device protection found under device care
+- Device Test (com.sec.factory)
 - Dictionary (com.diotek.sec.lookup.dictionary)
 - Digital Wellbeing (com.samsung.android.forest)
 - Dual Messenger (com.samsung.android.da.daagent)
@@ -90,6 +91,11 @@ This list is just a conservative debloat. The goal of this is to disable as much
   - Recommended apps (com.samsung.android.app.omcagent)
 - Galaxy Themes (com.samsung.android.themestore)
 - Gallery stories (com.samsung.storyservice) - Creates stories from your gallery
+- Game Services:
+  - Game Booster (com.samsung.android.game.gametools)
+  - Game Launcher (com.samsung.android.game.gamehome)
+  - Game Optimizing Service (com.samsung.android.game.gos)
+
 - Google Bloatware:
   - Duo Installer (com.google.android.apps.tachyon) - Installs Google Duo annoyingly
   - Gmail (com.google.android.gm)
@@ -123,6 +129,7 @@ This list is just a conservative debloat. The goal of this is to disable as much
 - Noto Serif / Source Sans Pro (com.android.theme.font.notoserifsource) - Just a font
 - NSDSWebApp (com.sec.vsim.ericssonnsds.webapp)
 - PartnerNetflixActivation (com.netflix.partner.activation)
+- Samsung ApexService (com.sec.android.app.apex)
 - Samung DeX:
   - DeX for PC (com.sec.android.app.dexonpc)
   - Samsung DeX (com.sec.android.desktopmode.uiservice)
@@ -141,10 +148,12 @@ This list is just a conservative debloat. The goal of this is to disable as much
   - Samsung PaymentFramework (com.samsung.android.spayfw)
   - Samsung Wallet_DKFW (com.samsung.android.carkey)
 - Samsung Push Service (com.sec.spp.push)
+- Samsung Setup Wizard (com.sec.android.app.SecSetupWizard)
 - Samsung text-to-speech engine (com.samsung.SMT)
 - Samsung Visit In (com.samsung.android.ipsgeofence)
 - Samsung voice input (com.samsung.android.svoiceime)
 - SamsungOne (com.monotype.android.font.samsungone) - Just a font
+- SetupWizardLegalProvider (com.sec.android.app.setupwizardlegalprovider)
 - Sharing apps:
   - Group Sharing (com.samsung.android.mobileservice)
   - Link Sharing (com.samsung.android.app.simplesharing)
@@ -157,6 +166,7 @@ This list is just a conservative debloat. The goal of this is to disable as much
 - Smart View (com.samsung.android.smartmirroring)
 - Smart Widget (com.samsung.android.app.smartwidget)
 - SmartFaceService (com.samsung.android.smartface) - Smart stay
+- SmartThings Framework (com.samsung.android.service.stplatform)
 - Software updates:
   - Software update (com.sec.android.soagent)
   - Software update (com.wssyncmldm)
