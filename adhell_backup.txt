@@ -86,10 +86,6 @@
       "policyPackageId": "default-policy"
     },
     {
-      "packageName": "com.samsung.android.brightnessbackupservice",
-      "policyPackageId": "default-policy"
-    },
-    {
       "packageName": "com.samsung.android.app.clipboardedge",
       "policyPackageId": "default-policy"
     },
