@@ -74,6 +74,7 @@ This list is just a conservative debloat. The goal of this is to disable as much
   - People (com.samsung.android.service.peoplestripe)
   - Tasks (com.samsung.android.app.taskedge)
   - Tools (com.sec.android.app.quicktool)
+- Error (com.sec.app.RilErrorNotifier)
 - Facebook bloats:
   - Facebook App Installer (Facebook App Installer)
   - Facebook App Manager (com.facebook.appmanager)

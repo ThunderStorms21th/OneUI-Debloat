@@ -534,6 +534,10 @@
       "policyPackageId": "default-policy"
     },
     {
+      "packageName": "com.sec.app.RilErrorNotifier",
+      "policyPackageId": "default-policy"
+    },
+    {
       "packageName": "com.sec.factory.cameralyzer",
       "policyPackageId": "default-policy"
     },
