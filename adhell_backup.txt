@@ -529,6 +529,26 @@
       "packageName": "com.google.android.apps.carrier.carrierwifi",
       "policyPackageId": "default-policy"
     }
+    {
+      "packageName": "com.sec.factory.camera",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.sec.factory.cameralyzer",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.camerasdkservice",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.android.cameraxservice",
+      "policyPackageId": "default-policy"
+    },
+    {
+      "packageName": "com.samsung.adaptivebrightnessgo",
+      "policyPackageId": "default-policy"
+    }
   ],
   "RestrictedPackage": [],
   "AppPermission": [
