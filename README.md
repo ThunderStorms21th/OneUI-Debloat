@@ -16,10 +16,10 @@ After you have successfully installed Adhell, you can simply download adhell_bac
 You may also do it manually. If you want to disable apps, simply go to "Apps" tab, "Disable Apps" and toggle the apps you want to disable. If you want to disable app components manually, go to "Other", "Components" and select the app you want. After selecting the app, go to the respective components you want to disable (Services/Receivers/Providers). You may use this list as a guide regarding what things to disable.
 
 ![alt text](https://github.com/pascua28/OneUI-Debloat/blob/master/Screenshots/2.jpg)
-Disable apps tab
+Disable apps tab where you can enable/disable apps.
 
 ![alt text](https://github.com/pascua28/OneUI-Debloat/blob/master/Screenshots/3.jpg) ![alt text](https://github.com/pascua28/OneUI-Debloat/blob/master/Screenshots/4.jpg)
-Components tab
+Components tab where you can enable/disable app permisions (below Android 12 only), activities, services, receivers and providers.
 
 # Contributions
 
